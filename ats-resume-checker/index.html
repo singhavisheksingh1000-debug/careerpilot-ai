@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Free ATS Resume Checker | CareerPilot AI</title>
+    <meta
+      name="description"
+      content="Check your resume for ATS mistakes, missing keywords, and formatting issues before applying with CareerPilot AI."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/" aria-label="CareerPilot AI home">
+          <span class="brand-mark">CP</span>
+          <span>CareerPilot AI</span>
+        </a>
+        <div class="nav-links" aria-label="Main menu">
+          <a href="/#toolkit">Toolkit</a>
+          <a href="/#templates">Templates</a>
+          <a href="/#ats-checker">ATS Checker</a>
+          <a href="/#pricing">Pricing</a>
+        </div>
+        <a class="nav-cta" href="/#pricing">Get Toolkit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="checker-hero">
+        <div class="checker-panel">
+          <p class="eyebrow">Free ATS Resume Checker</p>
+          <h1>Check Your Resume Before Applying</h1>
+          <p class="hero-text">
+            Use our free ATS Resume Checker to find resume mistakes, missing keywords,
+            and improve your chances of interview calls.
+          </p>
+          <form class="checker-form" action="mailto:hello@careerpilot.ai" method="post" enctype="text/plain">
+            <label for="resume-upload">Upload your resume</label>
+            <input id="resume-upload" name="resume" type="file" accept=".pdf,.doc,.docx" />
+            <label for="job-role">Target job role</label>
+            <input id="job-role" name="job-role" type="text" placeholder="Example: Data Analyst Intern" />
+            <button class="button button-primary" type="submit">Check Resume Score Free</button>
+          </form>
+        </div>
+        <aside class="checker-results" aria-label="Sample ATS checks">
+          <h2>Your score will review:</h2>
+          <ul class="check-list">
+            <li>ATS-friendly formatting and section structure</li>
+            <li>Missing role-specific keywords</li>
+            <li>Weak bullet points and unclear achievements</li>
+            <li>Contact details, links, and spelling issues</li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 CareerPilot AI. Built for job seekers who want better interview calls.</p>
+    </footer>
+  </body>
+</html>
