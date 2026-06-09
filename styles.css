@@ -530,7 +530,8 @@ h3 {
   font-weight: 800;
 }
 
-.checker-form input {
+.checker-form input,
+.checker-form textarea {
   width: 100%;
   min-height: 52px;
   border: 1px solid var(--line);
@@ -541,8 +542,29 @@ h3 {
   font: inherit;
 }
 
-.checker-form input[type="file"] {
-  padding: 14px 16px;
+.checker-form textarea {
+  min-height: 190px;
+  padding: 16px;
+  resize: vertical;
+}
+
+.result-score {
+  display: grid;
+  width: 132px;
+  height: 132px;
+  margin: 14px 0 18px;
+  place-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  box-shadow: 0 18px 40px rgba(36, 87, 255, 0.24);
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.checker-results p:not(.eyebrow) {
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .checker-form .button {
